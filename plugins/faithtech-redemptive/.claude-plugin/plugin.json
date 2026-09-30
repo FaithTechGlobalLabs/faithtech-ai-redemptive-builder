@@ -2,10 +2,9 @@
   "name": "ft",
   "version": "1.0.0",
   "description": "FaithTech 4D Cycle × Compound Engineering — build redemptive technology through Discover, Discern, Develop, Demonstrate. Integrates with compound-engineering plugin for engineering workflow.",
-  "author": "FaithTech Community",
+  "author": {
+    "name": "FaithTech Community"
+  },
   "homepage": "https://github.com/FaithTechGlobalLabs/faithtech-ai-redemptive-builder",
-  "license": "MIT",
-  "agents": "agents",
-  "commands": "commands",
-  "skills": "skills"
+  "license": "MIT"
 }
