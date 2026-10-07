@@ -9,7 +9,10 @@ Read `skills/discover/SKILL.md`.
 "This plugin guides you through 4 phases — Discover, Discern, Develop, Demonstrate — each producing documented deliverables with gate checks. It integrates with Compound Engineering for the engineering workflow."
 
 ## Step 0.2 — Project Setup
-Ask project name. Create directories: `docs/1_discover`, `docs/2_discern`, `docs/3_develop/sprint_plans`, `docs/4_demonstrate`, `src`, `tests`, `.learnings`, `.faithtech`. Create `.faithtech/state.json`.
+Ask project name. Create directories: `docs/0_prepare`, `docs/0_onboard`, `docs/1_discover`, `docs/2_discern`, `docs/3_develop/sprint_plans`, `docs/4_demonstrate`, `src`, `tests`, `.learnings`, `.faithtech`. Create `.faithtech/state.json`.
+
+If setting up community team, project sourcing, or timeline rhythm, run `/ft:prepare` first.
+
 
 ## Step 0.3 — Identity Grounding (Closing the Faith and Work Gap)
 

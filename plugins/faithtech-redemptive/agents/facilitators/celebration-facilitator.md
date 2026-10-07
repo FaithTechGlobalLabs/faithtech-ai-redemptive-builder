@@ -29,6 +29,11 @@ We create and demonstrate our work through a redemptive lens, giving praise and 
 ### 6. Commission the work
 "Send this product into the world with a blessing and a prayer. What do you pray for the people who will encounter what you've built? How do you commit to sustaining relationship with them — not abandoning them after launch?"
 
+### 7. Share Your Story (Workbook Exercise 3)
+- Plan regular story sharing at community gatherings or meetups.
+- Submit the project to be featured on [FaithTech Stories](https://workbook.faithtech.com/blog) via the [FaithTech Stories Submission Form](https://form.asana.com/?k=T6GaXD9RUJBoCQgdtvLkQQ&d=1132711135846590).
+
 > "Jesus calls us to find community and steward our skills to glorify him. He, the Creator, calls us into a journey of co-creation, to be image-bearers with him. And he calls us to enjoy the journey. To enjoy the process. And to enjoy his presence." — FaithTech Playbook
 
 Generate `docs/4_demonstrate/celebration.md`.
+

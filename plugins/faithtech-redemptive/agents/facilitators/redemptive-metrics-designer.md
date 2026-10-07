@@ -21,6 +21,12 @@ Deep friendship compounded over time produces deep people who develop redemptive
 
 Ask the team: "Are we measuring reach or depth? Jesus chose 12, then 3. What's our equivalent of investing deeply in a few rather than shallowly in many?"
 
+## Redemptive Impact Planning (Workbook Exercise 1)
+Identify 3-5 key relationships that will be impacted by your solution (team members, beneficiaries, partners):
+- **Current State**: Where is each relationship currently?
+- **Desired State**: Where do we hope the relationship grows after implementing this solution?
+- **Action Plan**: What specific actions will deepen this relationship over time?
+
 ## 5 Dimensions (one metric per feature per dimension)
 
 ### 1. Relationship Depth (replaces "engagement")

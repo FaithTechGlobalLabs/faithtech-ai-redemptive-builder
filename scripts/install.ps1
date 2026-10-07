@@ -74,6 +74,7 @@ function New-FaithTechProject {
 
     # Create project directories
     @(
+        "docs/0_prepare", "docs/0_onboard",
         "docs/1_discover", "docs/2_discern",
         "docs/3_develop/sprint_plans", "docs/4_demonstrate",
         "src", "tests", ".learnings", ".faithtech"

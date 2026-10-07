@@ -38,8 +38,9 @@ Search for organizations already serving these people:
 For each: name, URL, mission, who they serve, what tools/programs they use, partnership potential.
 
 ### Category 3: Open-Source Projects
-Search GitHub and the web for existing codebases:
+Search GitHub, GitLab, and Openly Faithful (`projects.openlyfaithful.org`) for existing codebases:
 - `[problem keywords] site:github.com`
+- `[problem domain] site:projects.openlyfaithful.org`
 - `[problem domain] open source`
 - `[problem domain] open source project`
 - `[problem domain] github`
@@ -47,7 +48,8 @@ Search GitHub and the web for existing codebases:
 For each: repo URL, stars/activity, what it does, tech stack, license, could we fork/contribute.
 
 ### Category 4: Faith-Based Resources
-Search for faith communities and initiatives:
+Search for faith communities, Christian open-source tools (`projects.openlyfaithful.org`), and initiatives:
+- `[problem domain] site:projects.openlyfaithful.org`
 - `[problem domain] church`
 - `[problem domain] faith-based`
 - `[problem domain] Christian technology`

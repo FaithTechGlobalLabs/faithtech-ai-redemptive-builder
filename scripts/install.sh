@@ -53,7 +53,7 @@ faithtech-new() {
         echo \"Directory '\$name' already exists.\"; return 1
     fi
 
-    mkdir -p \"\$name\"/{docs/{1_discover,2_discern,3_develop/sprint_plans,4_demonstrate},src,tests,.learnings,.faithtech}
+    mkdir -p \"\$name\"/{docs/{0_prepare,0_onboard,1_discover,2_discern,3_develop/sprint_plans,4_demonstrate},src,tests,.learnings,.faithtech}
     cd \"\$name\"
 
     echo '{\"project_name\":\"'\$name'\",\"phase\":0,\"step\":\"0.1\"}' > .faithtech/state.json

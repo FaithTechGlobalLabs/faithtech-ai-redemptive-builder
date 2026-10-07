@@ -38,7 +38,13 @@ Ask:
 - "How has your team already been transformed through building?"
 - "What relationships have deepened — within the team and with those you serve?"
 
-Generate `docs/4_demonstrate/success_vision.md` — capture the team's answers to these questions. This document defines what redemptive success looks like for this project and becomes the north star for metrics design in the next step.
+Generate `docs/4_demonstrate/success_vision.md` — capture the team's answers to these questions.
+
+### Workbook Exercise 1: Redemptive Impact Planning
+Identify 3-5 key relationships that will be impacted by your solution (team members, beneficiaries, partners). For each:
+- Current state of the relationship
+- Desired state after implementing your solution
+- Specific actions you can take to deepen this relationship over time
 
 ## Step 4.2 — Redemptive Metrics
 Read `agents/facilitators/redemptive-metrics-designer.md`. 5 dimensions:
@@ -47,6 +53,12 @@ Read `agents/facilitators/redemptive-metrics-designer.md`. 5 dimensions:
 3. **Community Health** (replaces retention)
 4. **Builder Transformation** (unique to FaithTech)
 5. **Image-Bearer Dignity** (replaces satisfaction)
+
+### Workbook Exercise 2: Measuring Redemptive Impact
+Create a framework measuring:
+- Depth of relationships formed
+- Spiritual growth of team members and beneficiaries
+- Long-term community transformation
 
 ## Step 4.3 — Anti-Metrics
 Explicitly reject: addictive usage, data extraction, growth over depth, revenue over relationships, vanity metrics without quality context.
@@ -64,7 +76,12 @@ Generate `docs/4_demonstrate/impact_report.md`.
 
 We gauge redemptive impact by how it redefines the community — both those we serve and those who build — demonstrated through lasting relationship, not quick-win solutions that leave people indebted and alone.
 
+### Workbook Exercise 3: Share Your Story
+- Plan regular story sharing at community gatherings/meetups.
+- Submit project to be featured on [FaithTech Stories](https://workbook.faithtech.com/blog) using the [FaithTech Stories Submission Form](https://form.asana.com/?k=T6GaXD9RUJBoCQgdtvLkQQ&d=1132711135846590).
+
 Generate `docs/4_demonstrate/demo_plan.md` + `docs/4_demonstrate/sustainability_plan.md`.
+
 
 ## Step 4.5b — Pitch Deck Generation
 
