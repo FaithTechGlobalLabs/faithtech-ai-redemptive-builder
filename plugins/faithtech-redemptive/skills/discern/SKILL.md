@@ -41,8 +41,8 @@ The agent MUST use web search to actively investigate BEFORE the team ideates. T
 ### Search for:
 1. **Existing apps and platforms** — search for tools already solving this problem or similar ones. Search terms: the problem domain + "app", "platform", "tool", "software".
 2. **Non-profits and ministries** — search for organizations already serving these people. They may have solutions, partnerships, or deep knowledge. Search terms: problem domain + "nonprofit", "ministry", "organization", "charity".
-3. **Open-source projects** — search GitHub, GitLab for existing codebases that could be adapted or contributed to. Search terms: problem keywords on github.com.
-4. **Church and faith-based resources** — search for faith communities already addressing this. Search terms: problem + "church", "faith-based", "Christian", "ministry".
+3. **Open-source projects** — search GitHub, GitLab, and Openly Faithful (`projects.openlyfaithful.org`) for existing Christian and open-source codebases that could be adapted or contributed to. Search terms: problem keywords on github.com or Openly Faithful.
+4. **Church and faith-based resources** — search for faith communities, Christian open-source tools (`projects.openlyfaithful.org`), and kingdom initiatives already addressing this. Search terms: problem + "church", "faith-based", "Christian", "ministry".
 5. **Academic research** — search for studies on what interventions actually work for this problem. Search terms: problem domain + "research", "study", "evidence", "what works".
 
 ### For each existing solution found, document:

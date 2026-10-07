@@ -9,7 +9,10 @@ Read `.faithtech/state.json`. Scan `docs/` subdirectories for existing files.
 
 Check for each file and mark ✅ (exists) or ⬜ (pending/not yet):
 
-**Phase 0: Onboard**
+**Phase 0: Prepare & Onboard**
+- `docs/0_prepare/project_charter.md` — project challenge & partner sourcing
+- `docs/0_prepare/team_formation.md` — team roles, skill balance & care practices
+- `docs/0_prepare/timeline_roadmap.md` — Create cycle timeline & roadmap
 - `docs/0_onboard/identity_grounding.md` — Faith & Work Gap reflection
 
 **Phase 1: Discover**

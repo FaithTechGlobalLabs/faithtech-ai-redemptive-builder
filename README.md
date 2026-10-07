@@ -307,6 +307,7 @@ Agent: That's a specific gap tied to our profiles. Noted.
 | Command | What It Does |
 |---------|-------------|
 | `/ft:start` | Begin a new project (Phase 0) |
+| `/ft:prepare` | Prepare project, form team & set timeline (Phase 0) |
 | `/ft:next` | Advance to next step |
 | `/ft:status` | Show current phase, step, deliverables |
 | `/ft:gate` | Run gate check for current phase |
@@ -343,12 +344,17 @@ The agent reads your deliverables and state file, tells you exactly where you le
 
 ## The 4D Cycle
 
-### Phase 0: Onboard
+### Phase 0: Prepare & Onboard
 
 | Step | What Happens | Deliverable |
 |------|-------------|-------------|
+| 0.1 | Project sourcing & challenge charter | `docs/0_prepare/project_charter.md` |
+| 0.1b | Team formation & role balance | `docs/0_prepare/team_formation.md` |
+| 0.1c | Create timeline & roadmap (Create12 / sprint rhythm) | `docs/0_prepare/timeline_roadmap.md` |
 | 0.2 | Project setup — directories, state file | `.faithtech/state.json` |
 | 0.3 | Identity grounding — close the Faith and Work Gap (Eph 2:10, Rom 8:15) | `docs/0_onboard/identity_grounding.md` |
+
+**4 deliverables saved**
 
 ### Phase 1: Discover — "See Through the Lens of Christ"
 
@@ -371,7 +377,7 @@ The agent reads your deliverables and state file, tells you exactly where you le
 | Step | What Happens | Deliverable |
 |------|-------------|-------------|
 | 2.1 | "How Might Jesus" — reframe every solution direction through Jesus' lens | `docs/2_discern/how_might_jesus.md` |
-| 2.1a | Existing solutions research — agent web-searches for apps, orgs, open-source, faith-based resources, and academic evidence | `docs/2_discern/existing_solutions_research.md` |
+| 2.1a | Existing solutions research — web-searches apps, orgs, open-source, Openly Faithful (`projects.openlyfaithful.org`), and evidence | `docs/2_discern/existing_solutions_research.md` |
 | 2.1b | Solution ideation — brainstorm ALL ideas informed by research (tagged: Receive/Reimagine/Create/Non-tech) | `docs/2_discern/solution_ideas.md` |
 | 2.2 | 3RC — Reject/Receive/Reimagine/Create evaluation. Receive and Reimagine MUST reference research. | `docs/2_discern/3rc_decision.md` |
 | 2.3 | Feature spec — features with redemptive alignment (1 Cor 13 love lens) + `ce:plan` | `docs/2_discern/feature_spec.md` + `docs/2_discern/implementation_plan.md` |
@@ -410,12 +416,12 @@ The `redemptive-alignment-reviewer` has **veto power** — code that violates th
 
 | Step | What Happens | Deliverable |
 |------|-------------|-------------|
-| 4.1 | Redefine success — ri = friendship^time, not force/time (Andy Crouch). Jesus' model: 12+3. | `docs/4_demonstrate/success_vision.md` |
-| 4.2-4.3 | Redemptive metrics (5 dimensions) + anti-metrics (what we refuse to optimize) | `docs/4_demonstrate/metrics.md` |
+| 4.1 | Redefine success — ri = friendship^time + Workbook Exercise 1 (3-5 relational plans) | `docs/4_demonstrate/success_vision.md` |
+| 4.2-4.3 | Redemptive metrics (5 dimensions) + Workbook Exercise 2 + anti-metrics | `docs/4_demonstrate/metrics.md` |
 | 4.4 | Final comprehensive review — full codebase, all reviewers | `docs/4_demonstrate/impact_report.md` |
 | 4.5 | Launch plan + sustainability — humility, ongoing relationship, stewardship | `docs/4_demonstrate/demo_plan.md` + `docs/4_demonstrate/sustainability_plan.md` |
 | 4.5b | Pitch deck — audience-adapted presentation pulling from ALL deliverables (also available anytime via `/ft:pitch`) | `docs/4_demonstrate/pitch_deck.pptx` + `docs/4_demonstrate/pitch_deck_notes.md` |
-| 4.6 | Celebrate and commission — honor contributors, credit the Spirit, bless the work | `docs/4_demonstrate/celebration.md` |
+| 4.6 | Celebrate, commission & Workbook Exercise 3 (Share Your Story & FaithTech Stories) | `docs/4_demonstrate/celebration.md` |
 
 **8 deliverables saved**
 
@@ -435,12 +441,12 @@ The `/ft:pitch` command adapts the deck to who you're presenting to:
 
 | Phase | Documents | Total |
 |-------|-----------|-------|
-| 0 — Onboard | `identity_grounding.md` | 1 |
+| 0 — Prepare & Onboard | `project_charter.md`, `team_formation.md`, `timeline_roadmap.md`, `identity_grounding.md` | 4 |
 | 1 — Discover | `listening_notes.md`, `lament.md`, `personas.md`, `discovery_brief.md` | 4 |
 | 2 — Discern | `how_might_jesus.md`, `existing_solutions_research.md`, `solution_ideas.md`, `3rc_decision.md`, `feature_spec.md`, `implementation_plan.md`, `tech_stack_decision.md` | 7 |
 | 3 — Develop | `dev_roadmap.md`, `architecture.md`, `sprint_plans/sprint_N.md` (with Care + Review sections), `cocreation_journal.md`, `.learnings/`, `src/`, `tests/` | 4+ per sprint |
 | 4 — Demonstrate | `success_vision.md`, `metrics.md`, `impact_report.md`, `demo_plan.md`, `sustainability_plan.md`, `pitch_deck.pptx`, `pitch_deck_notes.md`, `celebration.md` | 8 |
-| **Total** | | **24+ documents** |
+| **Total** | | **27+ documents** |
 
 Every conversation captured. Every decision documented. Every reflection saved. Nothing lost between phases.
 
@@ -450,7 +456,7 @@ Every conversation captured. Every decision documented. Every reflection saved. 
 
 | Type | Count | Examples |
 |------|-------|---------|
-| Commands | 7 | `start`, `next`, `status`, `gate`, `check`, `trap`, `pitch` |
+| Commands | 8 | `start`, `prepare`, `next`, `status`, `gate`, `check`, `trap`, `pitch` |
 | Skills | 6 | `discover`, `discern`, `develop`, `demonstrate`, `theology-of-technology`, `pitch-deck` |
 | Review Agents | 6 | `redemptive-alignment-reviewer` (veto), `dark-pattern-scanner`, `image-bearer-language-reviewer`, `killer-app-trap-detector`, `grey-zone-evaluator`, `accessibility-dignity-reviewer` |
 | Facilitator Agents | 8 | `lament-facilitator`, `image-bearer-profiler`, `existing-solutions-researcher`, `3rc-evaluator`, `hmj-reframer`, `cocreation-facilitator`, `redemptive-metrics-designer`, `celebration-facilitator` |
@@ -465,8 +471,10 @@ faithtech-plugin/
 │       │   └── plugin.json              ← Plugin manifest (name: "ft")
 │       ├── commands/
 │       │   ├── start.md                 ← /ft:start (includes identity grounding)
+│       │   ├── prepare.md               ← /ft:prepare (project sourcing, team, timeline)
 │       │   ├── next.md                  ← /ft:next
-│       │   ├── status.md                ← /ft:status (tracks 24+ deliverables)
+│       │   ├── status.md                ← /ft:status (tracks 27+ deliverables)
+
 │       │   ├── gate.md                  ← /ft:gate
 │       │   ├── check.md                 ← /ft:check
 │       │   ├── trap.md                  ← /ft:trap
